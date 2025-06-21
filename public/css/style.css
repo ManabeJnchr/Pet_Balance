@@ -1,0 +1,34 @@
+.border-green {
+  border-color: #a8bba5 !important;
+}
+
+.btn-brown {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #a65f2f; /* Marrom vivo (base) */
+  --bs-btn-border-color: #803d14; /* Marrom avermelhado escuro (borda) */
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #bf6932; /* Tom mais vibrante (hover) */
+  --bs-btn-hover-border-color: #803d14; /* Reforça contraste no hover */
+  --bs-btn-focus-shadow-rgb: 191, 105, 50; /* RGB do hover para sombra */
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #944319; /* Tom mais escuro (active) */
+  --bs-btn-active-border-color: #662d10; /* Marrom queimado profundo */
+}
+
+.btn-orange {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #f7931e; /* Laranja vivo (base) */
+  --bs-btn-border-color: #c76100; /* Laranja queimado (borda) */
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #ff8c00; /* Hover mais vibrante */
+  --bs-btn-hover-border-color: #b34d00; /* Borda mais escura no hover */
+  --bs-btn-focus-shadow-rgb: 255, 140, 0; /* Sombra com RGB do hover */
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #e46f00; /* Laranja escuro (ativo) */
+  --bs-btn-active-border-color: #993d00; /* Marrom-avermelhado escuro */
+}
+.lilita-one-regular {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
