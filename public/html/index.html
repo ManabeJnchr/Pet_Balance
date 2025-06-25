@@ -442,26 +442,7 @@
 							</div>
 							<div class="col-12 col-sm-2">
 								<button type="button" class="btn btn-brown mb-2 mdi mdi-bone w-100 h-100"
-									@click="calcular()"
-									:disabled="
-										!racoes.racao_a.proteinas || !racoes.racao_a.carboidratos || !racoes.racao_a.gorduras || !racoes.racao_a.custo ||
-										!racoes.racao_b.proteinas || !racoes.racao_b.carboidratos || !racoes.racao_b.gorduras || !racoes.racao_b.custo ||
-										!racoes.racao_c.proteinas || !racoes.racao_c.carboidratos || !racoes.racao_c.gorduras || !racoes.racao_c.custo ||
-										!racoes.racao_d.proteinas || !racoes.racao_d.carboidratos || !racoes.racao_d.gorduras || !racoes.racao_d.custo ||
-										!racoes.racao_e.proteinas || !racoes.racao_e.carboidratos || !racoes.racao_e.gorduras || !racoes.racao_e.custo ||
-										!racoes.racao_f.proteinas || !racoes.racao_f.carboidratos || !racoes.racao_f.gorduras || !racoes.racao_f.custo ||
-										!restricoes.proteinas || !restricoes.carboidratos || !restricoes.gorduras ||
-										(
-											Number(racoes.racao_a.proteinas) === 0 && Number(racoes.racao_a.carboidratos) === 0 && Number(racoes.racao_a.gorduras) === 0 && Number(racoes.racao_a.custo) === 0 &&
-											Number(racoes.racao_b.proteinas) === 0 && Number(racoes.racao_b.carboidratos) === 0 && Number(racoes.racao_b.gorduras) === 0 && Number(racoes.racao_b.custo) === 0 &&
-											Number(racoes.racao_c.proteinas) === 0 && Number(racoes.racao_c.carboidratos) === 0 && Number(racoes.racao_c.gorduras) === 0 && Number(racoes.racao_c.custo) === 0 &&
-											Number(racoes.racao_d.proteinas) === 0 && Number(racoes.racao_d.carboidratos) === 0 && Number(racoes.racao_d.gorduras) === 0 && Number(racoes.racao_d.custo) === 0 &&
-											Number(racoes.racao_e.proteinas) === 0 && Number(racoes.racao_e.carboidratos) === 0 && Number(racoes.racao_e.gorduras) === 0 && Number(racoes.racao_e.custo) === 0 &&
-											Number(racoes.racao_f.proteinas) === 0 && Number(racoes.racao_f.carboidratos) === 0 && Number(racoes.racao_f.gorduras) === 0 && Number(racoes.racao_f.custo) === 0 &&
-											Number(restricoes.proteinas) === 0 && Number(restricoes.carboidratos) === 0 && Number(restricoes.gorduras) === 0
-										)
-									"
-								> Calcular</button>
+									@click="calcular()"> Calcular</button>
 								<button type="button" class="btn btn-brown mb-2 mdi mdi-bone w-100 h-100 d-none"
 									@click="setarValores()"> SetarValores</button>
 							</div>
