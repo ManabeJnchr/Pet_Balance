@@ -1,34 +1,53 @@
 .border-green {
-  border-color: #a8bba5 !important;
+    border-color: #a8bba5 !important;
 }
 
 .btn-brown {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #a65f2f; /* Marrom vivo (base) */
-  --bs-btn-border-color: #803d14; /* Marrom avermelhado escuro (borda) */
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #bf6932; /* Tom mais vibrante (hover) */
-  --bs-btn-hover-border-color: #803d14; /* Reforça contraste no hover */
-  --bs-btn-focus-shadow-rgb: 191, 105, 50; /* RGB do hover para sombra */
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #944319; /* Tom mais escuro (active) */
-  --bs-btn-active-border-color: #662d10; /* Marrom queimado profundo */
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #a65f2f;
+    --bs-btn-border-color: #7a431a;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #8b4e22;
+    --bs-btn-hover-border-color: #5c2e0f;
+    --bs-btn-focus-shadow-rgb: 166, 95, 47;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #c47a3a;
+    --bs-btn-active-border-color: #a65f2f;
+    transition: background 0.2s, border-color 0.2s;
 }
 
-.btn-orange {
-  --bs-btn-color: #fff;
-  --bs-btn-bg: #f7931e; /* Laranja vivo (base) */
-  --bs-btn-border-color: #c76100; /* Laranja queimado (borda) */
-  --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #ff8c00; /* Hover mais vibrante */
-  --bs-btn-hover-border-color: #b34d00; /* Borda mais escura no hover */
-  --bs-btn-focus-shadow-rgb: 255, 140, 0; /* Sombra com RGB do hover */
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #e46f00; /* Laranja escuro (ativo) */
-  --bs-btn-active-border-color: #993d00; /* Marrom-avermelhado escuro */
-}
+/* .btn-orange {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #f7931e;
+    --bs-btn-border-color: #c76100;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #cc7a17;
+    --bs-btn-hover-border-color: #a65f13;
+    --bs-btn-focus-shadow-rgb: 247, 147, 30;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #ffb347;
+    --bs-btn-active-border-color: #f7931e;
+    transition: background 0.2s, border-color 0.2s;
+} */
+
 .lilita-one-regular {
-  font-family: "Lilita One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.logo-header {
+    height: 60%;
+    width: auto;
+    max-height: 60%;
+    max-width: 100%;
+    object-fit: contain;
+    padding: 0;
+    border-radius: 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+.card-bg-orange {
+	background-color: #ffb347;
 }
