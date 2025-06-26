@@ -20,20 +20,6 @@
     font-size: 32px;
 }
 
-/* .btn-orange {
-    --bs-btn-color: #fff;
-    --bs-btn-bg: #f7931e;
-    --bs-btn-border-color: #c76100;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #cc7a17;
-    --bs-btn-hover-border-color: #a65f13;
-    --bs-btn-focus-shadow-rgb: 247, 147, 30;
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #ffb347;
-    --bs-btn-active-border-color: #f7931e;
-    transition: background 0.2s, border-color 0.2s;
-} */
-
 .lilita-one-regular {
     font-family: "Lilita One", sans-serif;
     font-weight: 400;

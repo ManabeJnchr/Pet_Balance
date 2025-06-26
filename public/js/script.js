@@ -212,7 +212,6 @@ window.calculadoraPet = function () {
             }
         },
         geraGrafico() {
-            // Remove gráfico anterior se existir
             if (window.graficoRacoes) {
                 window.graficoRacoes.destroy();
             }
@@ -239,7 +238,7 @@ window.calculadoraPet = function () {
                     type: 'bar',
                     height: 400,
                     toolbar: { show: false },
-                    background: '#fff' // fundo branco
+                    background: '#fff'
                 },
                 series: [{
                     name: 'Quantidade (unids/onça)',
@@ -251,19 +250,19 @@ window.calculadoraPet = function () {
                         style: { 
                             fontFamily: 'Lilita One, sans-serif', 
                             fontSize: '16px',
-                            colors: '#000' // texto preto no eixo X
+                            colors: '#000'
                         } 
                     }
                 },
-                colors: ['#f7931e'], // apenas um tom de laranja
+                colors: ['#f7931e'],
                 plotOptions: {
                     bar: {
-                        distributed: false, // todas as barras com a mesma cor
+                        distributed: false,
                         borderRadius: 6,
                         columnWidth: '55%',
                         dataLabels: {
                             style: {
-                                colors: ['#000'] // texto preto dentro das colunas
+                                colors: ['#000']
                             }
                         }
                     }
@@ -273,14 +272,14 @@ window.calculadoraPet = function () {
                     style: { 
                         fontFamily: 'Lilita One, sans-serif', 
                         fontSize: '14px',
-                        colors: ['#000'] // texto preto nos valores das barras
+                        colors: ['#000']
                     }
                 },
                 yaxis: {
                     title: { text: 'Quantidade (unids/onça)' },
                     labels: {
                         style: {
-                            colors: '#000' // texto preto no eixo Y
+                            colors: '#000'
                         }
                     }
                 },
