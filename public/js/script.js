@@ -242,7 +242,7 @@ window.calculadoraPet = function () {
                     background: '#fff' // fundo branco
                 },
                 series: [{
-                    name: 'Quantidade (kg)',
+                    name: 'Quantidade (unids/onça)',
                     data: racoesValores
                 }],
                 xaxis: {
@@ -277,7 +277,7 @@ window.calculadoraPet = function () {
                     }
                 },
                 yaxis: {
-                    title: { text: 'Quantidade (kg)' },
+                    title: { text: 'Quantidade (unids/onça)' },
                     labels: {
                         style: {
                             colors: '#000' // texto preto no eixo Y
@@ -285,7 +285,7 @@ window.calculadoraPet = function () {
                     }
                 },
                 tooltip: {
-                    y: { formatter: val => `${val} kg` }
+                    y: { formatter: val => `${val} unids/onça` }
                 }
             };
 

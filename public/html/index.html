@@ -462,9 +462,9 @@
 								<div class="card bg-white shadow rounded-3 h-100">
 									<div class="card-body text-center">
 										<h5 class="card-title mb-2" x-text="racoes.racao_a.nome"></h5>
-										<p class="card-text display-6 mb-0">
+										<p class="card-text display-6 mb-0 d-grid">
 											<span x-text="resultado.racao_a"></span> <small
-												class="text-muted">kg</small>
+												class="text-muted font-tipo-valor">unids/onça</small>
 										</p>
 									</div>
 								</div>
@@ -474,9 +474,9 @@
 								<div class="card bg-white shadow rounded-3 h-100">
 									<div class="card-body text-center">
 										<h5 class="card-title mb-2" x-text="racoes.racao_b.nome"></h5>
-										<p class="card-text display-6 mb-0">
+										<p class="card-text display-6 mb-0 d-grid">
 											<span x-text="resultado.racao_b"></span> <small
-												class="text-muted">kg</small>
+												class="text-muted font-tipo-valor">unids/onça</small>
 										</p>
 									</div>
 								</div>
@@ -486,9 +486,9 @@
 								<div class="card bg-white shadow rounded-3 h-100">
 									<div class="card-body text-center">
 										<h5 class="card-title mb-2" x-text="racoes.racao_c.nome"></h5>
-										<p class="card-text display-6 mb-0">
+										<p class="card-text display-6 mb-0 d-grid">
 											<span x-text="resultado.racao_c"></span> <small
-												class="text-muted">kg</small>
+												class="text-muted font-tipo-valor">unids/onça</small>
 										</p>
 									</div>
 								</div>
@@ -500,9 +500,9 @@
 								<div class="card bg-white shadow rounded-3 h-100">
 									<div class="card-body text-center">
 										<h5 class="card-title mb-2" x-text="racoes.racao_d.nome"></h5>
-										<p class="card-text display-6 mb-0">
+										<p class="card-text display-6 mb-0 d-grid">
 											<span x-text="resultado.racao_d"></span> <small
-												class="text-muted">kg</small>
+												class="text-muted font-tipo-valor">unids/onça</small>
 										</p>
 									</div>
 								</div>
@@ -512,9 +512,9 @@
 								<div class="card bg-white shadow rounded-3 h-100">
 									<div class="card-body text-center">
 										<h5 class="card-title mb-2" x-text="racoes.racao_e.nome"></h5>
-										<p class="card-text display-6 mb-0">
+										<p class="card-text display-6 mb-0 d-grid">
 											<span x-text="resultado.racao_e"></span> <small
-												class="text-muted">kg</small>
+												class="text-muted font-tipo-valor">unids/onça</small>
 										</p>
 									</div>
 								</div>
@@ -524,9 +524,9 @@
 								<div class="card bg-white shadow rounded-3 h-100">
 									<div class="card-body text-center">
 										<h5 class="card-title mb-2" x-text="racoes.racao_f.nome"></h5>
-										<p class="card-text display-6 mb-0">
+										<p class="card-text display-6 mb-0 d-grid">
 											<span x-text="resultado.racao_f"></span> <small
-												class="text-muted">kg</small>
+												class="text-muted font-tipo-valor">unids/onça</small>
 										</p>
 									</div>
 								</div>
@@ -538,26 +538,9 @@
 								<div class="card bg-white shadow rounded-3 h-100">
 									<div class="card-body text-center">
 										<h6 class="card-title mb-2">Custo Total</h6>
-										<p class="card-text display-6 mb-0">
+										<p class="card-text display-6 mb-0 d-grid">
 											<span x-text="resultado.custo_total"></span>
-											<small class="text-muted">cents/onça</small>
-										</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 col-md-8">
-								<div class="card bg-white shadow rounded-3 h-100">
-									<div class="card-body text-center">
-										<h6 class="card-title mb-2">Soluções</h6>
-										<p class="card-text display-6 mb-0">
-											Solução Viável:
-											<span class="fw-bold text-muted" x-show="resultado.solucao_viavel">Sim</span>
-											<span class="fw-bold text-muted" x-show="!resultado.solucao_viavel">Não</span>
-										</p>
-										<p class="card-text display-6 mb-0">
-											Solução Limitada:
-											<span class="fw-bold text-muted" x-show="resultado.solucao_limitada">Sim</span>
-											<span class="fw-bold text-muted" x-show="!resultado.solucao_limitada">Não</span>
+											<small class="text-muted font-tipo-valor">cents/onça</small>
 										</p>
 									</div>
 								</div>
@@ -573,11 +556,11 @@
 						<div id="grafico-racoes"></div>
 					</div>
 				</div>
-			</div>
-			<div class="col-12 text-end">
-				<button type="button" class="btn btn-brown" @click="view = 'FORMULARIO'">
-					<span class="mdi mdi-arrow-left"></span> Voltar para a tela inicial
-				</button>
+				<div class="col-12 text-end mt-3">
+					<button type="button" class="btn btn-brown" @click="view = 'FORMULARIO'">
+						<span class="mdi mdi-arrow-left"></span> Voltar para a tela inicial
+					</button>
+				</div>
 			</div>
 		</div>
 	</div>

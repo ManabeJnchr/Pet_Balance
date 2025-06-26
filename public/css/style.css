@@ -16,6 +16,10 @@
     transition: background 0.2s, border-color 0.2s;
 }
 
+.font-tipo-valor {
+    font-size: 32px;
+}
+
 /* .btn-orange {
     --bs-btn-color: #fff;
     --bs-btn-bg: #f7931e;
