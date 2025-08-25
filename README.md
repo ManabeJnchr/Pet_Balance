@@ -168,15 +168,6 @@ O Pet Balance utiliza o **javascript-lp-solver** para resolver problemas de prog
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
-## 📈 Funcionalidades Futuras
-
-- [ ] **Salvamento de Configurações**: Salvar combinações de rações favoritas
-- [ ] **Histórico de Cálculos**: Visualizar cálculos anteriores
-- [ ] **Exportação de Dados**: Exportar resultados em PDF/Excel
-- [ ] **Modo Escuro**: Tema escuro para melhor experiência
-- [ ] **API REST**: Integração com aplicativos móveis
-- [ ] **Base de Dados de Rações**: Biblioteca pré-configurada de rações comerciais
-
 ## 📝 Licença
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
